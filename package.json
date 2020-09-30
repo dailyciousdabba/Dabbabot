@@ -1,0 +1,31 @@
+{
+  "name": "Dabbabot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is bot designed for the advance workflow management for great organizations",
+  "author": "Dailyciousdabba <support@dailyciousdabba.tech>",
+  "license": "ISC",
+  "repository": "https://github.com/dailyciousdabba/Dabbabot.git",
+  "homepage": "https://github.com/dailyciousdabba/Dabbabot",
+  "bugs": "https://github.com/dailyciousdabba/Dabbabot/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^10.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "nock": "^13.0.4",
+    "smee-client": "^1.1.0"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  }
+}
