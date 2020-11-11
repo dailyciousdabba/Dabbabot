@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "jest": "^26.4.0",
-    "nock": "^13.0.4",
+    "nock": "^13.0.5",
     "smee-client": "^1.1.0"
   },
   "engines": {
